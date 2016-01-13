@@ -1,0 +1,11 @@
+var_1 = input("Enter value x: ")
+var_2 = input("Enter value y: ")
+x = int(var_1)
+y = int(var_2)
+
+print(str(x) + "+" + str(y) + "=" + str(x+y))
+print(str(x) + "-" + str(y) + "=" + str(x-y))
+print(str(x) + "*" + str(y) + "=" + str(x*y))
+print(str(x) + "/" + str(y) + "=" + str(x/y))
+print(str(x) + "%" + str(y) + "=" + str(x%y))
+print(str(x) + "**" + str(y) + "=" + str(x**y))
